@@ -1,0 +1,307 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <title>GivTake Cart</title>
+</head>
+<body>
+<div class="col-xs-12 checkout-style" id="cart">
+<div class="max-container">
+<div class="row header">
+    <div class="mobile-menu col-xs-12 visible-xs visible-sm hidden-md hidden-lg">
+
+        <div class="mobile-icon-wrapper pull-center navbar-brand">
+            <img class="pull-center" src="img/mobile-header-logo.png"/>
+        </div>
+        <a class="pull-left menu-link nav" id="mobile-menu-button" href="#menu">
+            <img class="menu-arrow" src="img/arrow-white.svg"/>
+            <img class="menu-hamburger" src="img/hamburger.svg"/>
+        </a>
+        <a class="pull-right shopping-cart nav" id="shopping-cart-button" href="#menu">
+            <img class="" src="img/arrow-white.svg"/>
+        </a>
+
+        <div id="menu" class="side-panel" role="navigation">
+            <input type="text" placeholder="Search">
+            <img src="img/search-white.svg">
+            <ul class="list-unstyled listings-panel-list">
+                <li><h3><a href="#"><span>Buy</span></a></h3></li>
+                <li><h3><a href="#">Sell</a></h3></li>
+                <li><h5><a href="#">My Account</a></h5></li>
+                <li><h5><a href="#">Inbox <span>2</span></a></h5></li>
+                <li><h5><a href="#">Help</a></h5></li>
+                <li><h5><a href="#">Logout</a></h5></li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-fixed-top mobile-navbar visible-sm visible-xs hidden-md hidden-lg ">
+        <div class="navbar-gradient-overlay"></div>
+    </nav>
+    <nav class="navbar navbar-fixed-top hidden-sm hidden-xs" role="navigation">
+        <div class="navbar-gradient-overlay"></div>
+        <div class="container-fluid">
+            <ul class="nav navbar-brand navbar-left">
+                <li>
+                    <a class="" href="#"> <img src="img/upenn-listing-logo.png"/> </a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="text-center" href="#">Buy
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Sell
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">My Account
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Help
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Inbox <span>2</span>
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Cart <span>1</span>
+                            <div class="current-page"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+
+<h1 class="text-center">Your Cart</h1>
+<div class="row cart-list-container hidden-xs hidden-sm visible-md visible-lg">
+    <div class="col-xs-12 grey">
+        <div class="cart-item-wrapper">
+            <img src="img/listingplaceholders/couch.jpg"/>
+            <div class="info-block">
+                <dl id="listing-1">
+                    <dt class="listing-title">
+                        Green Couch with Pullout <span class="listing-price">$56</span>
+                    </dt>
+
+                </dl>
+                <dl id="listing-1-hidden" class="listing-hidden">
+                    <dt class="listing-title">
+                        Remove "Green Couch with Pullout" from your cart?
+                    </dt>
+                </dl>
+                <dl class="lister">
+                    <dd class="listed-by">
+                        Listed by
+                    </dd>
+                    <dt class="lister-name">
+                        john.smith
+                    </dt>
+                </dl>
+            </div>
+            <div class="delete-block">
+                <div class="show-first">
+                    <a href="#">
+                        <img src="img/x.svg"/>
+                    </a>
+
+                </div>
+                <div class="hide-first">
+                    <a class="btn btn-info">Yes</a>
+                    <a class="btn btn-danger">No</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-xs-12 light-grey">
+        <div class="cart-item-wrapper">
+            <img src="img/listingplaceholders/couch.jpg"/>
+            <div class="info-block">
+                <dl class="hide-first">
+                    <dt class="listing-title">
+                        Green Couch with Pullout <span class="listing-price">$56</span>
+                    </dt>
+
+                </dl>
+                <dl class="listing-hidden force-show">
+                    <dt class="listing-title">
+                        Remove "Green Couch with Pullout" from your cart?
+                    </dt>
+                </dl>
+                <dl class="lister">
+                    <dd class="listed-by">
+                        Listed by
+                    </dd>
+                    <dt class="lister-name">
+                        john.smith
+                    </dt>
+                </dl>
+            </div>
+            <div class="delete-block">
+                <div class="show-first hide-first">
+                    <a href="#">
+                        <img src="img/x.svg"/>
+                    </a>
+                </div>
+                <div class="hide-first force-show">
+                    <a class="btn btn-info">Yes</a>
+                    <a class="btn btn-danger">No</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-xs-12 grey">
+        <div class="cart-item-wrapper">
+            <img src="img/listingplaceholders/couch.jpg"/>
+            <div class="info-block">
+                <dl>
+                    <dt class="listing-title">
+                        50pc Utensil Set That Has the Longest Allowed Listing Title <span class="listing-price">$4</span>
+                    </dt>
+
+                </dl>
+                <dl class="listing-hidden">
+                    <dt class="listing-title">
+                        Remove "Green Couch with Pullout" from your cart?
+                    </dt>
+                </dl>
+                <dl class="lister">
+                    <dd class="listed-by">
+                        Listed by
+                    </dd>
+                    <dt class="lister-name">
+                        john.smith
+                    </dt>
+                </dl>
+            </div>
+            <div class="delete-block">
+                <div class="show-first">
+                    <a href="#">
+                        <img src="img/x.svg"/>
+                    </a>
+                </div>
+                <div class="hide-first">
+                    <a class="btn btn-info">Yes</a>
+                    <a class="btn btn-danger">No</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row line-two-btn hidden-xs hidden-sm visible-md visible-lg">
+    <div class="button-wrapper">
+        <a class="btn btn-info">Continue Shopping</a>
+        <a class="btn btn-danger">Checkout</a>
+    </div>
+    <div class="btn-line line-blue"></div>
+
+</div>
+<div class="row mobile-cart-item visible-xs visible-sm hidden-md hidden-lg">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-4 image-container">
+                <img src="img/listingplaceholders/couch.jpg"/>
+                <div class="price-panel">
+                    <h2>$56</h2>
+                </div>
+            </div>
+            <div class="col-xs-7">
+                <h3>A Longer Listing Title Example</h3>
+                <h4>By john.smith</h4>
+            </div>
+            <div class="col-xs-1">
+                <img src="img/x-pink.svg">
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-4 image-container">
+                <img src="img/listingplaceholders/couch.jpg"/>
+                <div class="price-panel">
+                    <h2>$56</h2>
+                </div>
+            </div>
+            <div class="col-xs-7">
+                <h3>Black Beanbag</h3>
+                <h4>By john.smith</h4>
+            </div>
+            <div class="col-xs-1">
+                <img src="img/x-pink.svg">
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-4 image-container">
+                <img src="img/listingplaceholders/couch.jpg"/>
+                <div class="price-panel">
+                    <h2>$56</h2>
+                </div>
+            </div>
+            <div class="col-xs-7">
+                <h3>Black Beanbag</h3>
+                <h4>By john.smith</h4>
+            </div>
+            <div class="col-xs-1">
+                <img src="img/x-pink.svg">
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 last-item">
+        <div class="row">
+            <div class="col-xs-4 image-container">
+                <img src="img/listingplaceholders/couch.jpg"/>
+                <div class="price-panel">
+                    <h2>$56</h2>
+                </div>
+            </div>
+            <div class="col-xs-7">
+                <h3>Black Beanbag</h3>
+                <h4>By john.smith</h4>
+            </div>
+            <div class="col-xs-1">
+                <img src="img/x-pink.svg">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="checkout-continue row visible-xs visible-sm hidden-md hidden-lg">
+    <div class="button-wrapper">
+        <a class="btn btn-danger">Checkout ($120)</a>
+        <a class="btn btn-info">Continue Shopping</a>
+    </div>
+
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bigSlide.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.stickem.js"></script>
+<script type="text/javascript" src="js/jquery.autosize.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

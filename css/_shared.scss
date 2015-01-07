@@ -1,0 +1,233 @@
+.max-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-menu {
+  z-index: 998;
+  .side-panel{
+
+    img{
+      margin-top: -27px;
+      margin-left: 33px;
+    }
+
+    input{
+      background-color:transparent;
+      border-radius: 50px;
+      border:1px solid white;
+      height:36px;
+      margin-left:5%;
+      margin-right:5%;
+      margin-top: 7%;
+      width:90%;
+      &::-webkit-input-placeholder {
+        color:white;
+        font-size:1.2em;
+        font-weight:200;
+        padding-left:47px;
+        line-height:normal;
+       }
+      &:-moz-placeholder {
+        color:white;
+        font-size:1.2em;
+        font-weight:200;
+        padding-left:47px;
+        line-height:normal;
+      }
+      &::-moz-placeholder {
+        color:white;
+        font-size:1.2em;
+        font-weight:200;
+        padding-left:47px;
+        line-height:normal;
+      }
+
+      &:-ms-input-placeholder {
+        color:white;
+        font-size:1.2em;
+        font-weight:200;
+        padding-left:47px;
+        line-height:normal;
+
+      }
+
+
+
+    }
+
+    .listings-panel-list{
+      li{
+        margin-left:30px !important;
+        a{
+          span{
+            color:$red;
+          }
+
+        }
+      }
+    }
+
+  }
+}
+
+.navbar-fixed-top {
+  z-index: 99;
+}
+
+
+.panel{
+  border:0 0 0 0;
+}
+
+.hide-first{
+    display:none;
+}
+
+.button-wrapper{
+  width:100px;
+  margin-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  button {
+    width:100px;
+  }
+}
+
+.navbar-gradient-overlay{
+  background: -webkit-linear-gradient($school-gradient-angle, $school-gradient-1, $school-gradient-2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($school-gradient-angle, $school-gradient-1, $school-gradient-2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($school-gradient-angle, $school-gradient-1, $school-gradient-2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($school-gradient-angle, $school-gradient-1, $school-gradient-2); /* Standard syntax */
+  bottom:0px;
+  left:0px;
+  height:100%;
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:100%
+
+}
+
+
+
+.listings-style, .checkout-style, .three-column-style{
+  background-color: $white;
+  padding-left: 0;
+  padding-right: 0;
+  .max-container{
+    max-width:2200px;
+  }
+  .col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row{
+    margin:0;
+  }
+  .header {
+    .navbar-left{
+      max-width:1000px;
+      height: 50px;
+      padding:0 !important;
+      li{
+        margin-top:12px;
+        a{
+          margin-top:10px;
+          padding:0;
+          background-color: transparent;
+          img{
+            margin:0 !important;
+          }
+          &:hover{
+            background-color: transparent;
+          }
+        }
+        img{
+          margin: 0px;
+          height: 39px;
+        }
+      }
+    }
+    .navbar-right{
+      margin-top:22px;
+      margin-right:0px;
+
+      li{
+        background-color: transparent;
+        margin-left:38.3px;
+        width:auto;
+
+        a{
+
+          font-size: 1.07em;
+          font-weight:600;
+          letter-spacing:1px;
+          margin:0 0 0 0;
+          padding:0 0 0 0;
+
+          .current-page{
+            margin-top: 3px;
+            background-color: white;
+            height: 1px;
+            width: 100%;
+          }
+
+          &:hover{
+            .navbar-active{
+              margin-top: 3px;
+              background-color: white;
+              height: 1px;
+              width: 100%;
+            }
+          }
+
+
+          span{
+            color: $red;
+            font-size: 1.1em;
+          }
+        }
+      }
+
+
+    }
+
+    .navbar-fixed-top {
+      overflow: hidden;
+      background-size: cover;
+      background: url(../img/school-specific-navbar-background.jpg) no-repeat center center $black;
+      height: 101px;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      overflow:none;
+      max-width: 2200px;
+      margin-left:auto;
+      margin-right:auto;
+      top: 0px;
+      width: 100%;
+      @media screen and (max-width:992px){
+        height:65;
+      }
+      //navbar gradient overlay
+    }
+
+    .container-fluid {
+      margin-top: 19px;
+      max-width:1000px;
+      padding-right:0;
+    }
+  }
+
+
+
+}
+
+
+
+
+

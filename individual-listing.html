@@ -1,0 +1,1447 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <title>GivTake Individual Listing</title>
+</head>
+<body>
+<div class="col-xs-12 listings-style" id="individual-listings">
+<div class="max-container">
+<div class="row header">
+    <div class="mobile-menu col-xs-12 visible-xs visible-sm hidden-md hidden-lg">
+
+        <div class="mobile-icon-wrapper pull-center navbar-brand">
+            <img class="pull-center" src="img/mobile-header-logo.png"/>
+        </div>
+        <a class="pull-left menu-link nav" id="mobile-menu-button" href="#menu">
+            <img class="menu-arrow" src="img/arrow-white.svg"/>
+            <img class="menu-hamburger" src="img/hamburger.svg"/>
+        </a>
+        <a class="pull-right shopping-cart nav" id="shopping-cart-button" href="#menu">
+            <img class="" src="img/arrow-white.svg"/>
+        </a>
+
+        <div id="menu" class="side-panel" role="navigation">
+            <input type="text" placeholder="Search">
+            <img src="img/search-white.svg">
+            <ul class="list-unstyled listings-panel-list">
+                <li><h3><a href="#"><span>Buy</span></a></h3></li>
+                <li><h3><a href="#">Sell</a></h3></li>
+                <li><h5><a href="#">My Account</a></h5></li>
+                <li><h5><a href="#">Inbox <span>2</span></a></h5></li>
+                <li><h5><a href="#">Help</a></h5></li>
+                <li><h5><a href="#">Logout</a></h5></li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-fixed-top mobile-navbar visible-sm visible-xs hidden-md hidden-lg ">
+        <div class="navbar-gradient-overlay"></div>
+    </nav>
+    <nav class="navbar navbar-fixed-top hidden-sm hidden-xs" role="navigation">
+        <div class="navbar-gradient-overlay"></div>
+        <div class="container-fluid">
+            <ul class="nav navbar-brand navbar-left">
+                <li>
+                    <a class="" href="#"> <img src="img/upenn-listing-logo.png"/> </a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="text-center" href="#">Buy
+                            <div class="current-page"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Sell
+                        <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">My Account
+                        <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Help
+                        <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Inbox <span>2</span>
+                        <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Cart <span>1</span>
+                        <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="listings-menu-bar-container-desktop hidden-xs hidden-sm visible-md visible-lg">
+    <nav class="navbar navbar-fixed-top">
+
+        <div class="max-container">
+            <div class="row">
+                <div class="col-xs-4 shopping-menu-wrapper ">
+                    <a id="all-listings-button" href="#"  type="button" class="all-listings-button pull-left menu-bar-button collapsed" data-toggle="collapse" data-target="#listings-menu" aria-expanded="false" aria-controls="demo">
+                        <img class="all-listings-bullet" src="img/blue-right-bullet.svg"/>
+
+                        <h4>Back to Results</h4>
+                        <div class="menu-bar-underline "></div>
+                    </a>
+                </div>
+                <div class="col-xs-4 search-bar-wrapper pull-center">
+                    <div class="panel-group" id="searchAccordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel" id="search-panel">
+                            <img class="search-icon" src="img/search.svg"/>
+                            <input type="text" id="listings-search-bar" placeholder="Search">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#searchAccordion" href="#searchcollapseOne" aria-expanded="false" aria-controls="searchcollapseOne">
+                                <div class="panel-heading" role="tab" id="searchheadingOne">
+                                    <img class="search-bullet" src="img/blue-right-bullet.svg" />
+                                    <div>All</div>
+                                </div>
+                            </a>
+                            <div id="searchcollapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="searchheadingOne">
+                                <div class="panel-body">
+                                    <div class="search-panel-divider"></div>
+                                    <ul class="list-unstyled text-right">
+                                        <li class="search-title"><a href="#">All</a></li>
+                                        <li><a href="#">Apparel & Accessories</a></li>
+                                        <li><a href="#">Arts & Entertainment</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Home & Kitchen</a></li>
+                                        <li><a href="#">Media</a></li>
+                                        <li><a href="#">Office Supplies</a></li>
+                                        <li class="last-item"><a href="#">Sporting Goods</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</div>
+<div class="row il-main-content">
+    <div class="max-container">
+        <div class="col-xs-12">
+            <div class="row container" >
+                <div class="col-xs-12 col-md-6 left-column stickem-container">
+                    <div class="row">
+                        <div class="il-mobile-header text-center col-xs-12 visible-xs visible-sm hidden-md hidden-lg">
+                            <a href="#">Back to Results</a>
+                            <H1>Brixton Men's Wool Cap One Size Fits All</H1>
+                        </div>
+                        <div class="col-xs-12 carousel-wrapper">
+                            <div id="carousel-example-generic" class="carousel slide stickem" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <img src="img/listingplaceholders/couch.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/listingplaceholders/couch.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/listingplaceholders/couch.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            ...
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/listingplaceholders/couch.jpg" alt="...">
+                                        <!--<div class="carousel-caption">-->
+                                        <!---->
+                                        <!--</div>-->
+                                    </div>
+                                    <!--...-->
+                                </div>
+
+                                <!--Controls-->
+                                <a class="left carousel-control visible-xs visible-sm hidden-md hidden-lg" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                                    <img class="left-control" src="img/blue-right-bullet.svg"/>
+                                </a>
+                                <a class="right carousel-control visible-xs visible-sm hidden-md hidden-lg" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <img class="right-control" src="img/blue-right-bullet.svg"/>
+
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-xs-12 col-md-6 right-column">
+                    <div class="il-details-container hidden-xs hidden-sm visible-md visible-lg col-xs-12">
+                        <h1  class="il-listing-title">Large Pink Beanbag</h1>
+                        <h2 class="il-listing-price">$60</h2>
+                        <div class="info-inline-container col-xs-12 top-container">
+                            <div class="info-left">
+                                <dl>
+                                    <dd>By: </dd><dt><a>john.smith</a></dt>
+                                </dl>
+                            </div>
+                            <div class="info-center">
+                                <ul class="list-inline">
+                                    <li>
+                                        <!--<img src="">-->
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="info-right">
+                                <h6><a href="#">Report User?</a></h6>
+                            </div>
+                        </div>
+                        <div class="info-inline-container col-xs-12">
+                            <div class="info-left">
+                                <dl>
+                                    <dd>LISTED ON: </dd><dt>08/04/14</dt>
+                                </dl>
+                            </div>
+                            <div class="info-center">
+                                <dl>
+                                    <dd>MEETUP: </dd><dt>Yes</dt>
+                                </dl>
+                            </div>
+                            <div class="info-right">
+                                <dl>
+                                    <dd>SHIPPING: </dd><dt>$3.50</dt>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="info-inline-container info-bottom col-xs-12">
+                            <div class="info-left">
+                                <dl>
+                                    <dd>CREDIT CARD: </dd><dt>Yes</dt>
+                                </dl>
+                            </div>
+                            <div class="info-center">
+                                <dl>
+                                    <dd>PAYPAL: </dd><dt>No</dt>
+                                </dl>
+                            </div>
+                            <div class="info-right">
+                                <dl>
+                                    <dd>QUALITY: </dd><dt>New</dt>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-il-details-container col-xs-12 visible-xs visible-sm hidden-md hidden-lg">
+                        <ul class="list-unstyled text-left mobile-il-details-left col-xs-6">
+                            <li class="mobile-il-price"><h2>$56</h2></li>
+                            <li>
+                                <dl>
+                                    <dd>LISTED ON</dd><dt>08/04/14</dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>By:</dd><dt><a>john.smith</a></dt>
+                                </dl>
+                            </li>
+                            <li>
+                                Star Rating
+                            </li>
+                            <li>
+                                <a href="#">Report User?</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled text-right mobile-il-details-right col-xs-6">
+                            <li>
+                                <dl>
+                                    <dd>MEETUP:</dd><dt>Yes</dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>SHIPPING:</dd><dt>$3.50</dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>CREDIT CARD:</dd><dt>Yes</dt>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>PAYPAL:</dd><dt>No</dt>
+                                </dl>                            </li>
+                            <li>
+                                <dl>
+                                    <dd>QUALITY:</dd><dt>New</dt>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="il-description-container col-xs-12">
+                        <div class="button-wrapper">
+                            <a class="btn btn-danger">Add to Cart</a>
+                        </div>
+                        <div class="btn-line"></div>
+                        <h5 class="il-text-about">About Black Beanbag</h5>
+                        <p class="il-item-description">
+                            Kid size super premium bean bag chair. This Poco Bean is one of the most comfortable child bean bag
+                            chairs in the world and manufactured by us! This beanbag measures 29 in. in diameter. Looks great and sits great and will
+                            stay fluffy forever unlike some beanbags and far more comfortable. Our big comfort secret to these bean shaped bag
+                            loungers is our custom formulated special new recycled fill.
+                    </div>
+                    <div class="il-foot col-xs-12">
+                        <h5 class="il-questions">Have a Question?</h5>
+                        <textarea id="questions-textarea"  placeholder="Type your question here"></textarea>
+                        <div class="button-wrapper">
+                            <a class="btn btn-info visible-xs visible-sm hidden-md hidden-lg">Send Message</a>
+                        </div>
+                        <a class="btn btn-danger hidden-xs hidden-sm visible-md visible-lg">Send Message</a>
+                        <h5 class="share-listing">Share This Listing</h5>
+                        <ul class="list-inline">
+                            <li class="social-icon"><a class="btn btn-info"><img src="img/email-social.svg"/></a></li>
+                            <li class="social-icon"><a class="btn btn-info"><img src="img/facebook.svg"/></a></li>
+                            <li class="social-icon"><a class="btn btn-info"><img src="img/twitter.svg"/></a></li>
+                            <li class="social-icon"><a class="btn btn-info"><img src="img/tumblr.svg"/></a></li>
+                            <li class="social-icon last-li"><a class="btn btn-info"><img src="img/pinterest.svg"/></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="listings-thumbnails-mobile row visible-xs visible-sm hidden-md hidden-lg">
+<div class="max-container">
+<div class="thumbnail-group">
+<div class="thumbnail-group-title">
+    <h1>Similar Listings</h1>
+</div>
+<div class="row mobile-row">
+    <div class="col-xs-6 small-image mobile-small listing-image small-left">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 small-image mobile-small listing-image small-right">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mobile-row">
+    <div class="col-xs-6 small-image mobile-small listing-image small-left">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 small-image mobile-small listing-image small-right">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="thumbnail-group">
+<div class="thumbnail-group-title">
+    <h1>Recently Viewed</h1>
+</div>
+<div class="row mobile-row">
+    <div class="col-xs-6 small-image mobile-small listing-image small-left">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 small-image mobile-small listing-image small-right">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mobile-row">
+    <div class="col-xs-6 small-image mobile-small listing-image small-left">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-6 small-image mobile-small listing-image small-right">
+        <img class="img-responsive " src="img/listingplaceholders/couch.jpg"/>
+
+        <div class="non-hover-panel-container">
+            <div class="non-hover-panel">
+                <h4 class="price-tag">$560</h4>
+            </div>
+        </div>
+        <div class="hover-panel text-center">
+            <div class="hover-panel-chop mb-sm">
+                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                <a class="btn btn-default">View Listing</a>
+
+                <div class="hover-bottom-bar bottom">
+                    <h5 class="pull-right">UPenn</h5>
+                </div>
+                <div class="list-icon-container meetup">
+                    <div>
+
+                        <img class="hover-icon" src="img/meetup-blue.svg">
+                        <img class="rollover-icon" src="img/meetup.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container dropbox">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Dropbox
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                        <img class="rollover-icon" src="img/dropbox.svg">
+                    </div>
+                </div>
+                <div class="list-icon-container featured">
+                    <div>
+                        <div class="icon-tooltip">
+                            <div class="btn btn-info tip-bubble">Featured Listing
+                                <div class="tiny-box"></div>
+
+                            </div>
+                        </div>
+                        <img class="hover-icon" src="img/featured-blue.svg">
+                        <img class="rollover-icon" src="img/featured.svg">
+                    </div>
+                </div>
+                <div class="hover-red-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
+</div>  <!--end listings thumbnails mobile-->
+
+<div class="listings-thumbnails-desktop row hidden-xs hidden-sm visible-md visible-lg">
+    <div class="max-container similar-listings-block">
+        <div class="thumbnail-block-wrapper">
+        <div class="col-xs-12 thumbnail-title-desktop">
+            <h1 class="text-center">Similar Listings</h1>
+        </div>
+        <a href="#">
+        <div class="col-xs-1">
+            <img class="thumbnail-left" src="img/blue-right-bullet.svg">
+        </div>
+        </a>
+        <div class="col-xs-10">
+        <div class="row">
+        <div class="col-md-6 listing-column">
+            <div class="row">
+                <div class="col-xs-6 small-image desktop listing-image">
+                    <!--//big image-->
+                    <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                    <div class="non-hover-panel-container">
+                        <div class="non-hover-panel">
+                            <h4 class="price-tag">$560</h4>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="hover-panel text-center">
+                            <div class="hover-panel-chop dt-sm">
+                                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                                <a class="btn btn-default">View Listing</a>
+                                <div class="hover-bottom-bar bottom">
+                                    <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                                </div>
+                                <div class="list-icon-container meetup">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Meetup
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/meetup-blue.svg">
+                                        <img class="rollover-icon" src="img/meetup.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container dropbox">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Dropbox
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                                        <img class="rollover-icon" src="img/dropbox.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container featured">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Featured Listing
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/featured-blue.svg">
+                                        <img class="rollover-icon" src="img/featured.svg">
+                                    </div>
+                                </div>
+                                <div class="hover-red-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 small-image desktop listing-image right-side">
+                    <!--//big image-->
+                    <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                    <div class="non-hover-panel-container">
+                        <div class="non-hover-panel">
+                            <h4 class="price-tag">$560</h4>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="hover-panel text-center">
+                            <div class="hover-panel-chop dt-sm">
+                                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                                <a class="btn btn-default">View Listing</a>
+                                <div class="hover-bottom-bar bottom">
+                                    <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                                </div>
+                                <div class="list-icon-container meetup">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Meetup
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/meetup-blue.svg">
+                                        <img class="rollover-icon" src="img/meetup.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container dropbox">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Dropbox
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                                        <img class="rollover-icon" src="img/dropbox.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container featured">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Featured Listing
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/featured-blue.svg">
+                                        <img class="rollover-icon" src="img/featured.svg">
+                                    </div>
+                                </div>
+                                <div class="hover-red-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6 listing-column">
+            <div class="row">
+                <div class="col-xs-6 small-image desktop listing-image">
+                    <!--//big image-->
+                    <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                    <div class="non-hover-panel-container">
+                        <div class="non-hover-panel">
+                            <h4 class="price-tag">$560</h4>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="hover-panel text-center">
+                            <div class="hover-panel-chop dt-sm">
+                                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                                <a class="btn btn-default">View Listing</a>
+                                <div class="hover-bottom-bar bottom">
+                                    <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                                </div>
+                                <div class="list-icon-container meetup">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Meetup
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/meetup-blue.svg">
+                                        <img class="rollover-icon" src="img/meetup.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container dropbox">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Dropbox
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                                        <img class="rollover-icon" src="img/dropbox.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container featured">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Featured Listing
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/featured-blue.svg">
+                                        <img class="rollover-icon" src="img/featured.svg">
+                                    </div>
+                                </div>
+                                <div class="hover-red-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-6 small-image desktop listing-image right-side">
+                    <!--//big image-->
+                    <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                    <div class="non-hover-panel-container">
+                        <div class="non-hover-panel">
+                            <h4 class="price-tag">$560</h4>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="hover-panel text-center">
+                            <div class="hover-panel-chop dt-sm">
+                                <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                                <a class="btn btn-default">View Listing</a>
+                                <div class="hover-bottom-bar bottom">
+                                    <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                                </div>
+                                <div class="list-icon-container meetup">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Meetup
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/meetup-blue.svg">
+                                        <img class="rollover-icon" src="img/meetup.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container dropbox">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Dropbox
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/dropbox-blue.svg">
+                                        <img class="rollover-icon" src="img/dropbox.svg">
+                                    </div>
+                                </div>
+                                <div class="list-icon-container featured">
+                                    <div>
+                                        <div class="icon-tooltip">
+                                            <div class="btn btn-info tip-bubble">Featured Listing
+                                                <div class="tiny-box"></div>
+                                            </div>
+                                        </div>
+                                        <img class="hover-icon" src="img/featured-blue.svg">
+                                        <img class="rollover-icon" src="img/featured.svg">
+                                    </div>
+                                </div>
+                                <div class="hover-red-line"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </div>
+        <a href="#">
+        <div class="col-xs-1">
+            <img class="thumbnail-right" src="img/blue-right-bullet.svg">
+        </div>
+        </a>
+        </div>
+
+    </div>
+    <div class="max-container recently-viewed-block">
+
+    <div class="thumbnail-block-wrapper">
+    <div class="col-xs-12 thumbnail-title-desktop">
+        <h1 class="text-center">Recently Viewed</h1>
+    </div>
+    <a href="#">
+        <div class="col-xs-1">
+            <img class="thumbnail-left" src="img/blue-right-bullet.svg">
+        </div>
+    </a>
+
+    <div class="col-xs-10">
+    <div class="row">
+    <div class="col-md-6 listing-column">
+        <div class="row">
+            <div class="col-xs-6 small-image desktop listing-image">
+                <!--//big image-->
+                <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                <div class="non-hover-panel-container">
+                    <div class="non-hover-panel">
+                        <h4 class="price-tag">$560</h4>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="hover-panel text-center">
+                        <div class="hover-panel-chop dt-sm">
+                            <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                            <a class="btn btn-default">View Listing</a>
+                            <div class="hover-bottom-bar bottom">
+                                <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                            </div>
+                            <div class="list-icon-container meetup">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Meetup
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/meetup-blue.svg">
+                                    <img class="rollover-icon" src="img/meetup.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container dropbox">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Dropbox
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/dropbox-blue.svg">
+                                    <img class="rollover-icon" src="img/dropbox.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container featured">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Featured Listing
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/featured-blue.svg">
+                                    <img class="rollover-icon" src="img/featured.svg">
+                                </div>
+                            </div>
+                            <div class="hover-red-line"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-6 small-image desktop listing-image right-side">
+                <!--//big image-->
+                <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                <div class="non-hover-panel-container">
+                    <div class="non-hover-panel">
+                        <h4 class="price-tag">$560</h4>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="hover-panel text-center">
+                        <div class="hover-panel-chop dt-sm">
+                            <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                            <a class="btn btn-default">View Listing</a>
+                            <div class="hover-bottom-bar bottom">
+                                <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                            </div>
+                            <div class="list-icon-container meetup">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Meetup
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/meetup-blue.svg">
+                                    <img class="rollover-icon" src="img/meetup.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container dropbox">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Dropbox
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/dropbox-blue.svg">
+                                    <img class="rollover-icon" src="img/dropbox.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container featured">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Featured Listing
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/featured-blue.svg">
+                                    <img class="rollover-icon" src="img/featured.svg">
+                                </div>
+                            </div>
+                            <div class="hover-red-line"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-6 listing-column">
+        <div class="row">
+            <div class="col-xs-6 small-image desktop listing-image">
+                <!--//big image-->
+                <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                <div class="non-hover-panel-container">
+                    <div class="non-hover-panel">
+                        <h4 class="price-tag">$560</h4>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="hover-panel text-center">
+                        <div class="hover-panel-chop dt-sm">
+                            <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                            <a class="btn btn-default">View Listing</a>
+                            <div class="hover-bottom-bar bottom">
+                                <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                            </div>
+                            <div class="list-icon-container meetup">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Meetup
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/meetup-blue.svg">
+                                    <img class="rollover-icon" src="img/meetup.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container dropbox">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Dropbox
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/dropbox-blue.svg">
+                                    <img class="rollover-icon" src="img/dropbox.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container featured">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Featured Listing
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/featured-blue.svg">
+                                    <img class="rollover-icon" src="img/featured.svg">
+                                </div>
+                            </div>
+                            <div class="hover-red-line"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-6 small-image desktop listing-image right-side">
+                <!--//big image-->
+                <img class="img-responsive " src="img/listingplaceholders/couch.jpg" />
+                <div class="non-hover-panel-container">
+                    <div class="non-hover-panel">
+                        <h4 class="price-tag">$560</h4>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="hover-panel text-center">
+                        <div class="hover-panel-chop dt-sm">
+                            <h3 class="text-center"> Converse Mens Size 14 Shoes</h3>
+                            <a class="btn btn-default">View Listing</a>
+                            <div class="hover-bottom-bar bottom">
+                                <h5 class="pull-right">By <a href="#">john.smith </a>at <a href="#">UPenn</a></h5>
+                            </div>
+                            <div class="list-icon-container meetup">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Meetup
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/meetup-blue.svg">
+                                    <img class="rollover-icon" src="img/meetup.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container dropbox">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Dropbox
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/dropbox-blue.svg">
+                                    <img class="rollover-icon" src="img/dropbox.svg">
+                                </div>
+                            </div>
+                            <div class="list-icon-container featured">
+                                <div>
+                                    <div class="icon-tooltip">
+                                        <div class="btn btn-info tip-bubble">Featured Listing
+                                            <div class="tiny-box"></div>
+                                        </div>
+                                    </div>
+                                    <img class="hover-icon" src="img/featured-blue.svg">
+                                    <img class="rollover-icon" src="img/featured.svg">
+                                </div>
+                            </div>
+                            <div class="hover-red-line"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <a href="#">
+        <div class="col-xs-1">
+            <img class="thumbnail-right" src="img/blue-right-bullet.svg">
+        </div>
+    </a>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+<div class="container col-xs-12 footer">
+    <div class="row">
+        <div class="footer-menu-wrapper hidden-xs hidden-sm">
+            <div class="footer-column">
+                <ul class="list-unstyled  text-center">
+                    <li class="footer-title"><h3 class="color-red">Sell Your Stuff</h3></li>
+                    <li class="footer-link"><h4><a href="#">Create a Listing</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Seller Handbook</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">My Account</a></h4></li>
+                </ul>
+            </div>
+            <div class="footer-column  text-center">
+                <ul class="list-unstyled">
+                    <li class="footer-title"><h3 class="color-red">Support</h3></li>
+                    <li class="footer-link"><h4><a href="#">FAQ's</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Contact</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Get GivTake at<br>Your School</a></h4></li>
+                </ul>
+            </div>
+            <div class="footer-column  text-center">
+                <ul class="list-unstyled">
+                    <li class="footer-title"><h3 class="color-red">Get to Know Us</h3></li>
+                    <li class="footer-link"><h4><a href="#">About</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Press</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Blog</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Careers</a></h4></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul class="list-unstyled text-center">
+                    <li class="footer-title"><h3 class="color-red">Connect</h3></li>
+                    <li class="footer-link"><h4><a href="#">Facebook</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Twitter</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Pinterest</a></h4></li>
+                    <li class="footer-link"><h4><a href="#">Mailing List</a></h4></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile-wrapper visible-xs visible-sm hidden-md hidden-lg">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                       aria-expanded="false" aria-controls="collapseOne">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h3 class="panel-title">
+                                <strong class="color-red">Sell Your Stuff</strong>
+                                <img class="pull-right right-arrow-bullet" src="img/right-arrow-bullet.png"/>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li class="mobile-footer-link"><h4><a href="#">FAQ's</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Contact</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Get GivTake at Your School</a></h4></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                       aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h3 class="panel-title">
+                                <strong class="color-red">Support</strong>
+                                <img class="pull-right right-arrow-bullet" src="img/right-arrow-bullet.png"/>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li class="mobile-footer-link"><h4><a href="#">FAQ's</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Contact</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Get GivTake at Your School</a></h4></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                       aria-expanded="false" aria-controls="collapseThree">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h3 class="panel-title">
+                                <strong class="color-red">Get to Know GivTake</strong>
+                                <img class="pull-right right-arrow-bullet" src="img/right-arrow-bullet.png"/>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li class="mobile-footer-link"><h4><a href="#">About</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Press</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Blog</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Careers</a></h4></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                       aria-expanded="false" aria-controls="collapseFour">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h3 class="panel-title">
+                                <strong class="color-red">Connect</strong>
+                                <img class="pull-right right-arrow-bullet" src="img/right-arrow-bullet.png"/>
+                            </h3>
+                        </div>
+                    </a>
+
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <ul class="list-unstyled">
+                                <li class="mobile-footer-link"><h4><a href="#">Facebook</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Twitter</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Pinterest</a></h4></li>
+                                <li class="mobile-footer-link"><h4><a href="#">Mailing List</a></h4></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="footer-arrow-wrapper">
+            <div class="footer-arrow-line"></div>
+            <div class="top-link-wrapper">
+                <a id="top-of-page-link" href="#top-of-page">
+                    <img src="img/top.svg"/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="footer-copyright-wrapper text-center">
+            &copy; Copyright 2014 GivTake All rights reserved. Site by <a
+                href="http://www.verbalplusvisual.com/">V+V</a>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bigSlide.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.stickem.js"></script>
+<script type="text/javascript" src="js/jquery.autosize.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+
+a {
+  &:hover, &:focus, &:active &:visited{
+    text-decoration: none;
+    color: $white;
+    outline: 0px;
+
+  }
+
+  &:hover &:active {
+
+  }
+}
+
+.btn {
+  &:hover &:focus &:visited &:active {
+    border:none;
+    outline: 0px  -webkit-focus-ring-color !important;
+    outline-offset: 0px;
+    text-decoration:none;
+
+  }
+}
+
+
+
+.btn-info{
+  background-color:$dark-blue;
+  border-radius:50px;
+  border-width:0;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-top:8px;
+  &:hover{
+    background-color:$red;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.btn-default{
+  background-color:$white;
+  border-radius:50px;
+  border-width:0;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-top:8px;
+  opacity:.9;
+  &:hover{
+    transition: opacity 0.3s ease;
+
+    opacity:1;
+  }
+}
+
+.btn-danger{
+  background-color:$red;
+  border-radius:50px;
+  border-width:0px;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-top:8px;
+  &:hover{
+    background-color:$dark-blue;
+    transition: background-color 0.3s ease;
+  }
+  &:active{
+
+  }
+}
+
+.mobile-dropdown-menu{
+  input[type=radio], input[type=checkbox] {
+    display:none;
+  }
+
+  input[type=radio] + label:before, input[type=checkbox] + label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align:middle;
+    margin-right: 8px;
+    background-color: transparent;
+    border-style:solid;
+    border-radius: 8px;
+    border-color: white;
+    border-width:2px;
+
+
+  }
+
+
+  input[type=radio]:checked + label:before, input[type=checkbox]:checked + label:before {
+    content: "\2022"; /* Bullet */
+    color:transparent;
+    background-color: $red;
+    border-color:$red;
+    font-size:1.8em;
+    text-align:center;
+    line-height:14px;
+  }
+}
+
+#filter-menu, .checkout-style, .account-style{
+  input[type=radio], input[type=checkbox] {
+    display:none;
+  }
+
+  input[type=radio] + label:before, input[type=checkbox] + label:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align:middle;
+    margin-right: 8px;
+    background-color: transparent;
+    border-style:solid;
+    border-radius: 8px;
+    border-color: $dark-blue;
+    border-width:2px;
+
+
+  }
+
+
+  input[type=radio]:checked + label:before, input[type=checkbox]:checked + label:before {
+    content: "\2022"; /* Bullet */
+    color:transparent;
+    background-color: $dark-blue;
+    border-color:$dark-blue;
+    font-size:1.8em;
+    text-align:center;
+    line-height:14px;
+  }
+}
+
+
+
+

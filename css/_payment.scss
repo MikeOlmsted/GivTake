@@ -1,0 +1,29 @@
+#payment{
+  .content-container{
+    @media screen and (max-width:992px){
+      margin-bottom: 90px;
+    }
+  }
+  .progress-wrapper{
+    margin-bottom: 69px;
+    @media screen and (max-width: 992px){
+      margin-bottom: 30px;
+    }
+  }
+  .section-header{
+    letter-spacing: 0.2px;
+  }
+  .standard-button{
+    .button-wrapper{
+      width: 180px;
+      margin-bottom: 17px;
+      .btn-danger{
+        height: $ch-field-height;
+        padding-top: 13px;
+        letter-spacing: 1;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+}

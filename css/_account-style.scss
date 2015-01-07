@@ -1,0 +1,563 @@
+
+
+
+.account-style{
+  #my-purchases{
+//    display:none;
+  }
+  #active-listings{
+//    display:none;
+  }
+  #inactive-listings{
+    .img-container{
+      max-width: 100%;
+      .image-wrapper{
+        position:relative;
+        img{
+          max-width:100%;
+
+        }
+        .inactive-img-overlay{
+          background-color: rgba(0,0,0,.8);
+          position:absolute;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+          .removed-title{
+            margin-top:34%;
+          }
+          .sold-title{
+            margin-top:20%;
+          }
+          .removed-title{
+
+          }
+          .text-wrapper{
+            .red-title{
+              font-weight:200;
+              font-size:20px;
+            }
+
+            .white-text{
+              font-weight:200;
+              color:white;
+              strong{
+                font-weight: 300;
+              }
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+
+  .account-listings {
+
+    .img-container{
+      max-width: 100%;
+      img{
+        max-width:100%;
+      }
+
+    }
+    h5{
+      color:$dark-blue;
+      font-size:14px;
+      font-weight: 500;
+      span{
+        font-weight: 700;
+      }
+    }
+    .listing-title-wrapper{
+      height:44px;
+      h4{
+        max-width: 248px;
+        letter-spacing: .4px;
+        line-height: 1.2;
+        font-size: 20px;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    h6{
+      a{
+        font-size:11px;
+      }
+    }
+    p{
+      color:$dark-blue;
+      font-size:15px;
+      font-weight:400
+    }
+
+    .rating-list{
+      li{
+        padding:0 2;
+        img{
+          margin-top: -6px;
+
+        }
+        h4{
+        }
+      }
+    }
+
+  }
+  #my-profile{
+//    display:none;
+    .rating-list{
+      li{
+        padding:0 2;
+        img{
+          margin-top: -6px;
+
+        }
+        h4{
+        }
+      }
+    }
+    .tall-checkbox-button-wrapper.button-wrapper{
+      width:250px;
+      @media screen and (max-width:992px) {
+        width: 100%;
+      }
+        .tall-checkbox-button{
+        position:relative;
+        padding-top:20px;
+        height: 66px;
+        h4{
+          line-height: 0px;
+          margin:0 0 3 0;
+          font-weight: 600;
+          font-size:14px;
+          span{
+            font-weight: 400;
+          }
+        }
+          .bullet-rollover{
+            height:12px;
+            width:12px;
+            border:2px solid $dark-blue;
+            border-radius: 50px;
+            background-color:white;
+            position:absolute;
+            top: 26px;
+            right: 17px;
+
+
+          }
+          &:hover{
+            background-color:white;
+
+            .bullet-rollover{
+              background-color:$dark-blue;
+            }
+          }
+
+      }
+    }
+    .thin-checkbox-button-wrapper{
+      width:250px;
+      @media screen and (max-width:992px) {
+        width: 100%;
+      }
+      .thin-checkbox-button{
+        position:relative;
+        padding-top:21px;
+        height: 44px;
+        h4{
+          line-height: 0px;
+          margin:0 0 3 0;
+          font-weight: 600;
+          font-size:14px;
+          span{
+            font-weight: 400;
+          }
+        }
+        .bullet-rollover{
+          height:12px;
+          width:12px;
+          border:2px solid $dark-blue;
+          border-radius: 50px;
+          background-color:white;
+          position:absolute;
+          top: 15px;
+          right: 18px;
+
+
+        }
+        &:hover{
+          background-color:white;
+          .bullet-rollover{
+            background-color:$dark-blue;
+          }
+        }
+
+      }
+    }
+    .checkbox-blue{
+      background-color:$dark-blue;
+      h4{
+        color: $white !important;
+
+      }
+      .bullet-rollover{
+        border-color:white !important;
+        background-color:$dark-blue !important;
+
+      }
+      &:hover{
+        background-color:$dark-blue !important;
+        .bullet-rollover{
+          background-color:$white !important;
+
+        }
+      }
+    }
+
+
+
+
+  }
+  #my-account{
+//    display:none;
+
+    #left-my-account-inboxcollapseOne{
+      h4{
+        font-size:20px;
+        span{
+          font-weight: 400;
+          font-size: 35px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 992px){
+      .panel-body{
+        width: 324px;
+        padding-left:0;
+        padding-right:0;
+        .row{
+          padding-top:7px;
+          padding-bottom:7px;
+        }
+      }
+      #left-my-accountcollapseOne>.panel-body{
+        margin-right:auto;
+        margin-left:0px;
+        h4{
+          margin-top:0px;
+        }
+      }
+      #center-my-accountcollapseOne>.panel-body{
+        margin-left:auto;
+        margin-right:auto;
+      }
+      #right-my-accountcollapseOne>.panel-body{
+        margin-left:auto;
+        margin-right:0px;
+      }
+      #right-my-account-settingscollapseOne>.panel-body{
+        margin-left:auto;
+        margin-right:0px;
+      }
+    }
+    .gray-one{
+      background-color: #f9f9f9;
+    }
+    .gray-two{
+      background-color: #f3f3f3;
+    }
+    .my-account-listing-title{
+      color:$red;
+      @media screen and (max-width:992px){
+        color:$dark-blue;
+      }
+      span{
+        @media screen and (max-width:992px) {
+
+          font-weight: 500;
+        }
+      }
+    }
+    .category-header{
+      display:inline-block;
+    }
+    .account-info{
+      display:inline-block;
+      font-size:14px;
+      margin-left: 3px;
+    }
+  }
+  #account-settings{
+//    display:none;
+    .category-header{
+      @media screen and (max-width:992px){
+        text-align:center;
+        font-weight: 500;
+        font-size: 1em;
+        max-width:100%;
+        margin:0;
+      }
+    }
+    input:first-of-type{
+      margin-top: 26px;
+    }
+
+    .wide-input{
+      border:2px solid $dark-blue;
+      border-radius:50px;
+      width: 100%;
+      color: $dark-blue;
+      font-weight: 600;
+      letter-spacing: 1px;
+      outline:none;
+      text-align: center;
+      height: $ch-field-height;
+      margin-bottom: 5px;
+
+      &::-webkit-input-placeholder {
+        color: $dark-blue;
+      }
+      &:-moz-placeholder {
+        color: $dark-blue;
+      }
+      &::-moz-placeholder {
+        color: $dark-blue;
+      }
+      &:-ms-input-placeholder {
+        color: $dark-blue;
+      }
+
+    }
+    .toggle-container{
+      padding-left:0px;
+      padding-right: 0px;
+      @media screen and (min-width:992px){
+        width: 310px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .toggle-title{
+        h4{
+          margin-top:6px;
+          font-weight: 700;
+          @media screen and (max-width: 992px){
+            font-size: 12px;
+          }
+        }
+      }
+      .toggle{
+        position:relative;
+        cursor: pointer;
+        height: 28px;
+        width: 80px;
+        background-color:$dark-blue;
+        border-radius:20px;
+          h4{
+            margin-top:6px;
+            color:white;
+            -webkit-user-select: none; /* Chrome/Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+ */
+
+        }
+
+        .toggle-text-off{
+          display:none;
+        }
+        .toggle-text-on{
+
+          display:block;
+          padding-right: 18px;
+          @media screen and (max-width: 992px){
+            margin-right: 20px;
+          }
+        }
+        .toggle-dot{
+          height: 22px;
+          width: 22px;
+          border-radius: 20px;
+          background-color:red;
+          position:absolute;
+          top:3;
+          right: 4;
+        }
+      }
+      .toggle.toggle-off{
+        background-color:#bdc3c7;
+        .toggle-text-off{
+
+          cursor: pointer;
+          display:block;
+          padding-left: 20px;
+          @media screen and (max-width: 992px){
+            margin-right: 13px;
+          }
+        }
+        .toggle-text-on{
+          display:none;
+        }
+        .toggle-dot{
+          background-color:#7f8c8d;
+          left:4;
+        }
+      }
+    }
+    .bottom-blue-divider{
+      border-width: 0 0 1 0;
+      border-style:solid;
+      border-color:$dark-blue;
+      padding-bottom: 5px;
+      @media screen and (max-width: 992px){
+        border-style:none;
+      }
+    }
+    .column-header{
+      width: 98%;
+      @media screen and (max-width:992px){
+        width: 100%;
+
+      }
+    }
+    .panel-body{
+      padding:0;
+      @media screen and (min-width:992px){
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 490px;
+
+      }
+    }
+
+  }
+  //universal account styles
+  h1{
+    margin-bottom: 30px;
+  }
+
+  .panel-group{
+    .panel{
+      position:relative;
+      border:0px;
+      box-shadow:none;
+      .panel-heading{
+        border-radius:0px;
+        h3{
+          margin-top: 4px;
+          padding-top: 0px;
+
+        }
+
+      }
+      .collapse-bullet{
+        right: 20px;
+        top: 14px;
+        height: 20px;
+        position: absolute;
+        width: 20px;
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
+      }
+      .collapsed{
+        .collapse-bullet{
+          -ms-transform: rotate(90deg); /* IE 9 */
+          -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+          transform: rotate(90deg);
+        }
+      }
+      .collapse{
+        @media screen and (min-width: 992px){
+          visibility: visible;
+          display:block;
+          height: auto !important;
+        }
+      }
+      .panel-body{
+        padding:0;
+        @media screen and (min-width:992px){
+          padding-left: 20px;
+          padding-right: 20px;
+          width: 324px;
+
+        }
+      }
+    }
+  }
+  .center-col{
+    .panel-body{
+      @media screen and (min-width:992px){
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+    }
+  }
+  .right-col{
+    .panel-body{
+      @media screen and (min-width:992px){
+        margin-left:auto;
+      }
+    }
+  }
+
+
+  .button-wrapper{
+    width: 200px;
+    //    width of .common-blue-button everywhere on account page
+    margin:7 auto;
+    .common-blue-button.btn-info.btn{
+      margin-top:0px;
+      font-weight: 200;
+      width: 100%;
+      padding:9 0;
+      letter-spacing: 1px;
+
+
+    }
+    .common-white-button.btn-info.btn{
+      border: 2px solid $dark-blue;
+      border-radius:50px;
+      background-color:white;
+      color:$dark-blue;
+      letter-spacing: 1px;
+      margin-top:0px;
+      font-weight:  500;
+      width: 100%;
+      &:hover{
+        background-color:$dark-blue;
+        color:white;
+      }
+    }
+    .common-white-button.btn-info.btn.thin-button{
+      width: 85%;
+      @media screen and (max-width:992px) {
+        width:100%;
+      }
+      }
+  }
+  .col-xs-6{
+    padding:0;
+  }
+
+  .account-container{
+    padding-bottom: 20px !important;
+  }
+  .col-md-6{
+    .row{
+      padding: 14 20 0 20;
+    }
+  }
+
+  .rating-star{
+    height: 15px;
+    width: 15px;
+  }
+
+}

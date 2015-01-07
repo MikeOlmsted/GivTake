@@ -1,0 +1,211 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <title>GivTake Payment</title>
+</head>
+<body>
+<div class="col-xs-12 checkout-style" id="payment">
+<div class="max-container">
+<div class="row header">
+    <div class="mobile-menu col-xs-12 visible-xs visible-sm hidden-md hidden-lg">
+
+        <div class="mobile-icon-wrapper pull-center navbar-brand">
+            <img class="pull-center" src="img/mobile-header-logo.png"/>
+        </div>
+    <!--<a class="pull-left menu-link nav" id="mobile-menu-button" href="#menu">-->
+    <!--<img class="menu-arrow" src="img/arrow-white.svg"/>-->
+    <!--<img class="menu-hamburger" src="img/hamburger.svg"/>-->
+    <!--</a>-->
+        <a class="pull-right checking-forward-arrow nav" id="right-button" href="#menu">
+        <img class="" src="img/arrow-white.svg"/>
+        </a>
+        <a class="pull-left checking-back-arrow nav" id="arrow-left-button" href="#menu">
+            <img class="" src="img/arrow-white.svg"/>
+        </a>
+
+    <!--<div id="menu" class="side-panel" role="navigation">-->
+    <!--<input type="text" placeholder="Search">-->
+    <!--<img src="img/search-white.svg">-->
+    <!--<ul class="list-unstyled listings-panel-list">-->
+    <!--<li><h3><a href="#"><span>Buy</span></a></h3></li>-->
+    <!--<li><h3><a href="#">Sell</a></h3></li>-->
+    <!--<li><h5><a href="#">My Account</a></h5></li>-->
+    <!--<li><h5><a href="#">Inbox <span>2</span></a></h5></li>-->
+    <!--<li><h5><a href="#">Help</a></h5></li>-->
+    <!--<li><h5><a href="#">Logout</a></h5></li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    </div>
+    <nav class="navbar navbar-fixed-top mobile-navbar visible-sm visible-xs hidden-md hidden-lg ">
+        <div class="navbar-gradient-overlay"></div>
+    </nav>
+    <nav class="navbar navbar-fixed-top hidden-sm hidden-xs" role="navigation">
+        <div class="navbar-gradient-overlay"></div>
+        <div class="container-fluid">
+            <ul class="nav navbar-brand navbar-left">
+                <li>
+                    <a class="" href="#"> <img src="img/upenn-listing-logo.png"/> </a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="text-center" href="#">Delivery
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Payment
+                            <div class="current-page"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-center" href="#">Review
+                            <div class="navbar-active"></div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="row content-container">
+    <div class="form-container">
+        <div class="col-xs-12">
+            <h1 class="text-center">Payment</h1>
+        </div>
+        <div class="col-xs-12">
+            <div class="progress-wrapper">
+                <div class="progress-dots pull-left full"></div>
+                <div class="progress-dots pull-right"></div>
+                <div class="progress-dots center-dot full"></div>
+                <div class="progress-line"></div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 double-button">
+            <div class="row">
+                <h5 class="section-header">Choose Form of Payment</h5>
+                <div class="col-xs-12 col-md-6">
+                    <div class="button-wrapper">
+                        <a class="btn btn-checkout">
+                            Paypal
+                            <input type="checkbox" id="checkout-checkbox1" value="">
+                            <label for="checkout-checkbox1"></label>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="button-wrapper">
+                        <a class="btn btn-checkout blue-checkout">
+                            Credit / Debit
+                            <input type="checkbox" id="checkout-checkbox2" value="" checked>
+                            <label for="checkout-checkbox2"></label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 single-button">
+            <h5 class="section-header">Choose Your Saved Card</h5>
+            <div class="button-wrapper">
+                <a class="btn btn-checkout">
+                    <span>Visa </span>ending in 1234
+                    <input type="checkbox" id="checkout-checkbox3" value="" >
+                    <label for="checkout-checkbox3"></label>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 standard-button">
+            <div class="button-wrapper">
+                <a class="btn btn-danger">
+                    Edit Card
+                </a>
+            </div>
+        </div>
+
+
+        <div class="col-xs-12 double-input">
+            <div class="row double-input-wrapper">
+                <div class="col-xs-6">
+                    <div class="button-wrapper">
+                        <input class="double-input-left" id="firstname-textarea" type="text" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="button-wrapper">
+                        <input class="double-input-right" id="lastname-textarea" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 single-input">
+            <div class="button-wrapper">
+                <input class="single-line-input" id="card-number-textarea" type="text" placeholder="Card Number">
+            </div>
+        </div>
+        <div class="col-xs-12 double-input">
+            <div class="row double-input-wrapper">
+                <div class="col-xs-6">
+                    <div class="button-wrapper">
+                        <input class="double-input-left" id="card-month" type="text" placeholder="MM">
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="button-wrapper">
+                        <input class="double-input-right" id="card-year" type="text" placeholder="YY">
+                    </div>
+                </div>
+            </div>
+            <h6 class="checkout-error">Expiration Date</h6>
+        </div>
+        <div class="col-xs-12 single-input">
+            <div class="button-wrapper">
+                <input class="single-line-input" id="cvc-code" type="text" placeholder="CVC Code">
+            </div>
+        </div>
+        <div class="col-xs-12 single-input">
+            <div class="button-wrapper">
+                <input class="single-line-input" id="zipcode" type="text" placeholder="ZIP Code">
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+    <div class="row line-one-btn">
+        <div class="button-wrapper">
+            <a class="btn btn-danger">Next Step: Billing</a>
+        </div>
+        <div class="btn-line line-blue"></div>
+
+    </div>
+
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bigSlide.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.stickem.js"></script>
+<script type="text/javascript" src="js/jquery.autosize.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6, p, a, div {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+
+
+  .listing-block{
+    .item-price {
+      font-family: 'Roboto Slab', serif;
+    }
+  }
+
+  .non-hover-panel{
+    .price-tag {
+      font-family: 'Roboto Slab', serif;
+    }
+  }
+
+}
+
+.gt-orange {
+  color: #fd7a23;
+}
+.color-red{
+  color:$red;
+}

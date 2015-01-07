@@ -1,0 +1,67 @@
+
+body {
+	background-color: black;
+}
+h1, h2, h3, h4, h5, h6, p, a, div {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+input{
+
+}
+
+.navbar {
+	/*background-color: rgba(0, 0, 0, 0);*/
+}
+
+.form-wrapper {
+	margin-top: 200px;
+}
+
+
+.main-content-container {
+    background-size: fixed;
+	background: url(../img/login-banner.jpg) no-repeat center center; 
+	-webkit-background-size: fixed;
+    -moz-background-size: fixed;
+    -o-background-size: fixed;
+   	min-height: 800px;
+ 	max-width: 2200px;
+	width: 100%;
+}
+
+.gt-orange {
+	color: #fd7a23;
+}
+
+.footer-column{
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-arrow-wrapper {
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.footer-arrow-line {
+	background-color: white;
+	height: 1px;
+}
+
+.footer-arrow-circle {
+	background-color: white;
+	border-radius: 45px;
+	height: 40px;
+	margin-top: -20;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40px;
+}
+
+.footer-copyright-wrapper {
+	margin-bottom: 50px;
+}

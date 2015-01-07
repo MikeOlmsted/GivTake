@@ -1,0 +1,57 @@
+#confirmation{
+  h4{
+    line-height: 25px;
+  }
+  .confirmation-message{
+    padding: 0 20;
+  }
+  .line-one-btn{
+    @media screen and (max-width: 992px){
+      display:none;
+    }
+  }
+  .account-container{
+    padding-bottom: 20px;
+  }
+  .line-one-btn{
+    padding-top:220px;
+    position:relative;
+    margin:0 auto;
+//    width:100%;
+    .btn-line{
+
+      margin-top: -42px;
+
+    }
+  }
+
+
+  .stickem{
+    position:fixed;
+    bottom:100px;
+    width:100%;
+  }
+
+  .stickem-container {
+    position:relative;
+
+
+  }
+
+  .stickit {
+    position: fixed !important;
+    bottom: 100 !important;
+    width:100% !important;
+  }
+
+  .stickit-end {
+    width:100% !important;
+    bottom: -90px !important;
+    position: absolute !important;
+  }
+}
+
+
+//.confirmation-footer{
+//  margin-top:-110px !important;
+//}

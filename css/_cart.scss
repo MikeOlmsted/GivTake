@@ -1,0 +1,225 @@
+#cart {
+  margin-top:100px;
+  @media screen and (max-width:992px){
+    background-color: $dark-grey;
+  }
+  dl{
+    color:$dark-blue;
+    text-align:left;
+    dt.listing-title{
+      display:inline-block;
+      font-size:20px;
+      font-weight:700;
+      position:relative;
+      letter-spacing:.3px;
+
+    }
+    span.listing-price{
+      color:$red;
+      display:inline-block;
+      position:relative;
+      font-size:20px;
+      font-weight:500;
+      font-family: 'Roboto Slab', serif;
+    }
+    dt.lister-name{
+      letter-spacing: 0.6px;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      position: relative;
+
+    }
+    dd.listed-by{
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      letter-spacing: 0.8px;
+
+    }
+  }
+  dl.listing-hidden{
+    display:none;
+  }
+  h2{
+    margin: 0;
+    padding-top: 30%;
+    color:$red;
+    font-size:20px;
+    font-weight:300;
+    font-family: 'Roboto Slab', serif;
+  }
+  h3{
+    font-size:17px;
+    margin-top: 10px;
+  }
+  h4{
+    font-size:10px;
+  }
+  .hide-first{
+    display:none;
+  }
+  .force-show{
+    display:block !important;
+  }
+  .grey{
+    color: #f8f8f8;
+  }
+  .light-grey{
+    color: #fdfdfd;
+  }
+
+
+  .max-container{
+    .header{
+
+    }
+    h1{
+      margin-top:63px;
+      margin-bottom:30px;
+      @media screen and (max-width:992px){
+        margin-top:0px;
+      }
+    }
+    .cart-list-container{
+      max-width:2200px;
+      margin-bottom: 34px;
+      .cart-item-wrapper{
+        max-width: 820px;
+        height: 134px;
+        margin: 0 auto;
+        position:relative;
+        img{
+          position: absolute;
+          display: inline-block;
+          width: 146px;
+          height: auto;
+          top: 12px;
+        }
+        .info-block{
+          left: 166px;
+          display: inline-block;
+          height: 100%;
+          width: 500px;
+          position: absolute;
+          dl{
+            position:absolute;
+            bottom: 44px;
+          }
+          dl.lister{
+            bottom: 19px;
+          }
+        }
+        .delete-block {
+          top: 30px;
+          position: absolute;
+          display: inline-block;
+          right: 0;
+          height: 55px;
+          width: 76px;
+
+          img{
+            margin-left: 49px;
+            height: 14px;
+            width: 14;
+            margin-top: 16px;
+          }
+          a {
+            width:100%;
+            margin-bottom:8px;
+          }
+        }
+
+      }
+    }
+
+    .mobile-cart-item{
+      .last-item{
+        margin-bottom:110px;
+      }
+      .row{
+        padding:0 20;
+        margin-bottom:10px;
+        .col-xs-4, .col-xs-10, .col-xs-1, .col-xs-7{
+          padding:0;
+        }
+        .image-container{
+          position:relative;
+          img{
+            width:100%;
+            height:auto;
+          }
+          .price-panel{
+            position:absolute;
+            background-color: rgba(0,0,0,.9);
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            h2{
+              text-align:center;
+              vertical-align:middle;
+            }
+
+          }
+        }
+        .col-xs-7{
+          padding-left:10px;
+        }
+        .col-xs-1{
+          min-height:100px;
+          img{
+            height: auto;
+            width: 10px;
+            margin-top: 100%;
+          }
+        }
+
+
+      }
+    }
+
+    .checkout-continue{
+      background-color:rgba(0,0,0,.9);
+      position:fixed;
+      bottom:0;
+      height: 120px;
+      width: 100%;
+      .button-wrapper{
+        margin-top:20px;
+        width: 70%;
+        margin-left:auto;
+        margin-right:auto;
+        .btn{
+          height: 35px;
+          font-weight: 600;
+          width: 100%;
+          margin-bottom: 10px;
+          padding-top: 9px;
+          letter-spacing: 1;
+        }
+        .btn-info{
+          background-color:white;
+          color: $red;
+          &:hover{
+            background-color:$red;
+            color: white;
+          }
+
+        }
+        .btn-danger{
+          &:hover{
+            background-color:white;
+            color: $red;
+          }
+        }
+      }
+    }
+
+  }
+  .line-blue{
+    margin-top: -26px;
+  }
+}
+
